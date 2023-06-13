@@ -7,11 +7,7 @@
   }
 
   .requestText1 {
-    /* position: absolute; */
-    width: 422px;
-    height: 43px;
-    left: 394px;
-    top: 75.71px;
+    margin-top: 30px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;

@@ -4,10 +4,9 @@
 }
 .main {
   position: absolute;
-  /* width: 1728px; */
-  width: 100%;
+  width: 1728px;
+  /* width: 100%; */
   height: 1117px;
-  /* height: 100%; */
   left: 0px;
   top: 0px;
   background: #d9d9d9;
@@ -264,7 +263,6 @@
   font-size: 16.9257px;
   line-height: 20px;
   letter-spacing: -0.005em;
-
   color: #959595;
 }
 
@@ -279,6 +277,7 @@
   border-radius: 24px;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 .recived {
   box-sizing: border-box;
@@ -366,6 +365,9 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   border-radius: 54px;
 }
+.dateDash{
+  padding-right: 25px;
+}
 .status {
   width: 712px;
   height: 48px;
@@ -376,6 +378,7 @@
   border-radius: 24px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .statustext {
   font-family: "Lato";
@@ -432,8 +435,6 @@
 }
 .cardBox {
   box-sizing: border-box;
-
-  /* position: absolute; */
 
   width: 275px;
   height: 93px;
@@ -519,28 +520,1121 @@
   border: 1px solid #69ac80;
 }
 
-/* @media (max-width: 359px) {
-}
 
+
+
+
+@media (max-width: 359px) {
+  .main {
+    width: 100%;
+    height: 2000px;
+  }
+  .slidermain {
+    width: 200px;
+    height: 2000px;
+    display: none;
+  }
+  .pages {
+    position: absolute;
+    width: 205px;
+    height: 34px;
+  }
+  .pages2 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages3 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages4 {
+    position: absolute;
+    width: 40px;
+    height: 33px;
+  }
+  .line {
+    position: absolute;
+    width: 160px;
+  }
+  .line2 {
+    position: absolute;
+    width: 160px;
+  }
+  .line3 {
+    position: absolute;
+    width: 160px;
+  }
+  .line4 {
+    position: absolute;
+    width: 160px;
+  }
+  .logoutBg {
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 20px;
+    top: 884px;
+  }
+  .logoutButton {
+    background: none;
+    border: 0px;
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .helpDesk {
+    position: absolute;
+    width: 76px;
+    height: 21px;
+    left: 58px;
+  }
+  .number {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 52px;
+  }
+  .requestText {
+    position: absolute;
+    width: 90%;
+    height: 43px;
+    left: 5px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 98%;
+    height: 336px;
+    left: 5px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 98%;
+    height: 1250px;
+    left: 5px;
+    top: 550px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .status {
+    width: 80%;
+    height: 48px;
+    left: 437px;
+    top: 575px;
+    margin-left: 40px;
+    background: #44a16f;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 200px;
+    top: 1820px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+  .rarefind{
+    display: none;
+  }
+  .innerbox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .innerbox2 {
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-top: 34px;
+    
+  }
+  .recived {
+    width: 33%;
+    height: 44px;
+    padding-left: 5px;
+  }
+  .NEGOTIATING {
+    width: 33%;
+    height: 45px;
+  }
+  .COMPLETED {
+    width: 34%;
+  }
+  .text1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.3972px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: #48af78;
+  }
+  .text1div {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .text2div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 2px;
+    border:none
+  }
+  .text3div {
+    padding-left: 2px;
+  }
+  .dateDash{
+    padding-right: 2px;
+  }
+  .cards {
+    width: 90%;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 60px;
+    background: #f5f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+  }
+  .cardBox {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+  
+    background: #eeeeee;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .booknow {
+    width: 30%;
+  }
+}
 @media (min-width: 360px) and (max-width: 479px) {
+  .main {
+    width: 100%;
+    height: 2000px;
+  }
+  .slidermain {
+    width: 200px;
+    height: 2000px;
+    display: none;
+  }
+  .pages {
+    position: absolute;
+    width: 205px;
+    height: 34px;
+  }
+  .pages2 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages3 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages4 {
+    position: absolute;
+    width: 40px;
+    height: 33px;
+  }
+  .line {
+    position: absolute;
+    width: 160px;
+  }
+  .line2 {
+    position: absolute;
+    width: 160px;
+  }
+  .line3 {
+    position: absolute;
+    width: 160px;
+  }
+  .line4 {
+    position: absolute;
+    width: 160px;
+  }
+  .logoutBg {
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 20px;
+    top: 884px;
+  }
+  .logoutButton {
+    background: none;
+    border: 0px;
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .helpDesk {
+    position: absolute;
+    width: 76px;
+    height: 21px;
+    left: 58px;
+  }
+  .number {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 52px;
+  }
+  .requestText {
+    position: absolute;
+    width: 90%;
+    height: 43px;
+    left: 5px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 98%;
+    height: 336px;
+    left: 5px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 98%;
+    height: 1250px;
+    left: 5px;
+    top: 550px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .status {
+    width: 80%;
+    height: 48px;
+    left: 437px;
+    top: 575px;
+    margin-left: 40px;
+    background: #44a16f;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 200px;
+    top: 1820px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+  .rarefind{
+    display: none;
+  }
+  .innerbox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .innerbox2 {
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-top: 34px;
+    
+  }
+  .recived {
+    width: 33%;
+    height: 44px;
+    padding-left: 5px;
+  }
+  .NEGOTIATING {
+    width: 33%;
+    height: 45px;
+  }
+  .COMPLETED {
+    width: 34%;
+  }
+  .text1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.3972px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: #48af78;
+  }
+  .text1div {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .text2div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 2px;
+    border:none
+  }
+  .text3div {
+    padding-left: 2px;
+  }
+  .dateDash{
+    padding-right: 2px;
+  }
+  .cards {
+    width: 90%;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 60px;
+    background: #f5f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+  }
+  .cardBox {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+  
+    background: #eeeeee;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .booknow {
+    width: 30%;
+  }
 }
-
 @media (min-width: 480px) and (max-width: 767px) {
+  .main {
+    width: 100%;
+    height: 2000px;
+  }
+  .slidermain {
+    width: 200px;
+    height: 2000px;
+  }
+  .pages {
+    position: absolute;
+    width: 205px;
+    height: 34px;
+  }
+  .pages2 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages3 {
+    position: absolute;
+    width: 170px;
+    height: 33px;
+  }
+  .pages4 {
+    position: absolute;
+    width: 40px;
+    height: 33px;
+  }
+  .line {
+    position: absolute;
+    width: 160px;
+  }
+  .line2 {
+    position: absolute;
+    width: 160px;
+  }
+  .line3 {
+    position: absolute;
+    width: 160px;
+  }
+  .line4 {
+    position: absolute;
+    width: 160px;
+  }
+  .logoutBg {
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 20px;
+    top: 884px;
+  }
+  .logoutButton {
+    background: none;
+    border: 0px;
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .helpDesk {
+    position: absolute;
+    width: 76px;
+    height: 21px;
+    left: 58px;
+  }
+  .number {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 52px;
+  }
+  .requestText {
+    position: absolute;
+    width: 70%;
+    height: 43px;
+    left: 230px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 336px;
+    left: 230px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 50%;
+    height: 1250px;
+    left: 230px;
+    top: 550px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .status {
+    width: 80%;
+    height: 48px;
+    left: 437px;
+    top: 575px;
+    margin-left: 40px;
+    background: #44a16f;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 300px;
+    top: 1820px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+  .rarefind{
+    display: none;
+  }
+  .innerbox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .innerbox2 {
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-top: 34px;
+    
+  }
+  .recived {
+    width: 33%;
+    height: 44px;
+    padding-left: 5px;
+  }
+  .NEGOTIATING {
+    width: 33%;
+    height: 45px;
+  }
+  .COMPLETED {
+    width: 34%;
+  }
+  .text1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.3972px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: #48af78;
+  }
+  .text1div {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .text2div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 2px;
+    border:none
+  }
+  .text3div {
+    padding-left: 2px;
+  }
+  .dateDash{
+    padding-right: 2px;
+  }
+  .cards {
+    width: 90%;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 60px;
+    background: #f5f4f4;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+  }
+  .cardBox {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+  
+    background: #eeeeee;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .booknow {
+    width: 30%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    width: 100%;
+    height: 2000px;
+  }
+  .slidermain {
+    width: 296px;
+    height: 2000px;
+    /* display: none; */
+  }
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 330px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 336px;
+    left: 330px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 50%;
+    height: 1250px;
+    left: 330px;
+    top: 550px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .status {
+    width: 80%;
+    height: 48px;
+    left: 437px;
+    top: 575px;
+    margin-left: 40px;
+    background: #44a16f;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 500px;
+    top: 1820px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+  .rarefind{
+    display: none;
+  }
+  .innerbox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .innerbox2 {
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-top: 34px;
+    
+  }
+  .recived {
+    width: 33%;
+    height: 44px;
+    padding-left: 5px;
+  }
+  .NEGOTIATING {
+    width: 33%;
+    height: 45px;
+  }
+  .COMPLETED {
+    width: 34%;
+  }
+  .text1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.3972px;
+    line-height: 35px;
+    letter-spacing: -0.015em;
+    color: #48af78;
+  }
+  .text1div {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .text2div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 2px;
+    border:none
+  }
+  .text3div {
+    padding-left: 2px;
+  }
+  .dateDash{
+    padding-right: 2px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 
-@media (min-width: 1200px) and (max-width: 1439px) {
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1339px) {
+  .main {
+    width: 100%;
+    height: 1329px;
+  }
+  .slidermain {
+    width: 296px;
+    height: 1329px;
+  }
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 330px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 60%;
+    height: 226px;
+    left: 330px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 60%;
+    height: 850px;
+    left: 330px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .status {
+    width: 80%;
+    height: 48px;
+    left: 437px;
+    top: 575px;
+    margin-left: 40px;
+    background: #44a16f;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1094px;
+    top: 1089px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+
+  .recived {
+    box-sizing: border-box;
+    width: 40%;
+    height: 44px;
+    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-right: none;
+  }
+  .NEGOTIATING {
+    box-sizing: border-box;
+    width: 20%;
+    height: 45px;
+    border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .COMPLETED {
+    box-sizing: border-box;
+    width: 40%;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .innerbox2 {
+    box-sizing: border-box;
+    width: 97%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-left: 12px;
+    border: 1px solid #959595;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+ 
+}
+@media (min-width: 1340px) and (max-width: 1439px) {
+  .main {
+    width: 100%;
+    height: 1329px;
+  }
+  .slidermain {
+    width: 296px;
+    height: 1329px;
+  }
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 330px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 60%;
+    height: 226px;
+    left: 330px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 60%;
+    height: 850px;
+    left: 330px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1185px;
+    top: 1089px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+
+  .innerbox2 {
+    box-sizing: border-box;
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-left: 12px;
+    border: 1px solid #959595;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+  .recived {
+    box-sizing: border-box;
+    width: 40%;
+    height: 44px;
+    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-right: none;
+  }
+  .NEGOTIATING {
+    box-sizing: border-box;
+    width: 20%;
+    height: 45px;
+    border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .COMPLETED {
+    box-sizing: border-box;
+    width: 40%;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1589px) {
+  .main {
+    width: 100%;
+    height: 1329px;
+  }
+  .slidermain {
+    width: 296px;
+    height: 1329px;
+  }
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 330px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 60%;
+    height: 226px;
+    left: 330px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 60%;
+    height: 850px;
+    left: 330px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1290px;
+    top: 1089px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+
+  .innerbox2 {
+    box-sizing: border-box;
+    width: 95%;
+    height: 48px;
+    left: 414px;
+    top: 294px;
+    margin-left: 12px;
+    border: 1px solid #959595;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+  .recived {
+    box-sizing: border-box;
+    width: 40%;
+    height: 44px;
+    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-right: none;
+  }
+  .NEGOTIATING {
+    box-sizing: border-box;
+    width: 20%;
+    height: 45px;
+    border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .COMPLETED {
+    box-sizing: border-box;
+    width: 40%;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1590px) and (max-width: 1669px) {
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 330px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
   .firstbox {
     box-sizing: border-box;
     position: absolute;
     width: 70%;
     height: 226px;
-    left: 402px;
+    left: 330px;
     top: 159px;
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -550,7 +1644,57 @@
     position: absolute;
     width: 70%;
     height: 526px;
-    left: 396px;
+    left: 330px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1450px;
+    top: 859px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+}
+
+@media (min-width: 1670px) and (max-width: 1759px) {
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 350px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 226px;
+    left: 350px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 70%;
+    height: 526px;
+    left: 350px;
     top: 446px;
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -568,54 +1712,29 @@
     background: #44a16f;
     border: 1px solid #69ac80;
   }
-  .innerbox2 {
-  box-sizing: border-box;
-  width: 1072px;
-  height: 48px;
-  left: 414px;
-  top: 294px;
-  margin-left: 12px;
-  border: 1px solid #959595;
-  border-radius: 24px;
-  display: flex;
-  flex-direction: row;
-}
-.recived {
-  box-sizing: border-box;
-  width: 387px;
-  height: 44px;
-  border-radius: 24px 0px 0px 24px;
-  display: flex;
-  padding-left: 20px;
-  align-items: center;
-}
-.NEGOTIATING {
-  box-sizing: border-box;
-  width: 287px;
-  height: 45px;
-  border-left: 1px solid #959595;
-  border-right: 1px solid #959595;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.COMPLETED {
-  box-sizing: border-box;
-  width: 396px;
-  border-radius: 0px 24px 24px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1760px) and (max-width: 1919px) {
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 350px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
   .firstbox {
     box-sizing: border-box;
     position: absolute;
     width: 70%;
     height: 226px;
-    left: 402px;
+    left: 350px;
     top: 159px;
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -625,7 +1744,7 @@
     position: absolute;
     width: 70%;
     height: 526px;
-    left: 396px;
+    left: 350px;
     top: 446px;
     background: #ffffff;
     border: 1px solid #ffffff;
@@ -637,7 +1756,7 @@
     box-sizing: border-box;
     width: 138px;
     height: 138px;
-    left: 1750px;
+    left: 1650px;
     top: 859px;
     border-radius: 50%;
     background: #44a16f;
@@ -646,6 +1765,20 @@
 }
 
 @media (min-width: 1920px) and (max-width: 2559px) {
+  .requestText {
+    position: absolute;
+    width: 422px;
+    height: 43px;
+    left: 402px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
   .firstbox {
     box-sizing: border-box;
     position: absolute;
@@ -673,7 +1806,7 @@
     box-sizing: border-box;
     width: 138px;
     height: 138px;
-    left: 2072px;
+    left: 2050px;
     top: 859px;
     border-radius: 50%;
     background: #44a16f;
@@ -682,4 +1815,5 @@
 }
 
 @media (min-width: 2560px) {
-} */
+} 
+

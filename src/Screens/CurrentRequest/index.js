@@ -29,6 +29,20 @@ const CurrentRequest = () => {
         doubles: "$145",
         rarefind: false
       },
+      {
+        id: 2,
+        distance: "1.5 miles away from joblocation",
+        singles: "$120",
+        doubles: "$145",
+        rarefind: false
+      },
+      {
+        id: 3,
+        distance: "1.5 miles away from joblocation",
+        singles: "$120",
+        doubles: "$145",
+        rarefind: false
+      },
     ],
     NEGOTIATING: [
       {
@@ -100,7 +114,7 @@ const CurrentRequest = () => {
                 <div className="text2">10</div>
                 <div className="smalltext">October</div>
               </div>
-              <div style={{ paddingRight: 25 }}>
+              <div className="dateDash">
                 <div className="text2">-</div>
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
