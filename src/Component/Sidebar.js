@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <nav className="slidermain">
       <div className="">
-        <div className="sliderLogo">Lodgn</div>
+        <div className="sliderLogo">LODGN</div>
         <div>
           <NavLink
             to="/"

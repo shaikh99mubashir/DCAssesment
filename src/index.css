@@ -4,8 +4,8 @@
 }
 .main {
   position: absolute;
-  width: 1728px;
-  /* width: 100%; */
+  /* width: 1728px; */
+  width: 100%;
   height: 1117px;
   /* height: 100%; */
   left: 0px;
@@ -206,7 +206,6 @@
   letter-spacing: -0.02em;
   color: #72aa83;
 }
-
 .firstbox {
   box-sizing: border-box;
   position: absolute;
@@ -225,8 +224,6 @@
   padding: 30px;
   margin-top: 20px;
 }
-
-
 .text1 {
   font-family: "Lato";
   font-style: normal;
@@ -236,7 +233,6 @@
   letter-spacing: -0.015em;
   color: #48af78;
 }
-
 .text1div {
   padding-right: 20px;
   padding-left: 20px;
@@ -273,38 +269,30 @@
 }
 
 .innerbox2 {
-    box-sizing: border-box;
-    width: 1072px;
-    height: 48px;
-    left: 414px;
-    top: 294px;
-    margin-left: 12px;
-    border: 1px solid #959595;
-    border-radius: 24px;
-    display: flex;
-    flex-direction: row;
-  }
+  box-sizing: border-box;
+  width: 1072px;
+  height: 48px;
+  left: 414px;
+  top: 294px;
+  margin-left: 12px;
+  border: 1px solid #959595;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+}
 .recived {
   box-sizing: border-box;
   width: 387px;
   height: 44px;
-  /* left: 414px; */
-  /* top: 294px; */
-  background: #fdf307;
-  border: 1px solid #fdf307;
   border-radius: 24px 0px 0px 24px;
   display: flex;
-  justify-content: center;
+  padding-left: 20px;
   align-items: center;
 }
 .NEGOTIATING {
   box-sizing: border-box;
   width: 287px;
-  height: 44px;
-  /* left: 414px; */
-  /* top: 294px; */
-  /* background: #fdf307;
-  border: 1px solid #fdf307; */
+  height: 45px;
   border-left: 1px solid #959595;
   border-right: 1px solid #959595;
   display: flex;
@@ -313,24 +301,385 @@
 }
 .COMPLETED {
   box-sizing: border-box;
-  width: 387px;
-  height: 44px;
-  /* left: 414px; */
-  /* top: 294px; */
-  /* background: #fdf307;
-  border: 1px solid #fdf307; */
-  border-radius: 24px 0px 0px 24px;
+  width: 396px;
+  /* height: 44px; */
+  border-radius: 0px 24px 24px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.tabtext{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 16.9257px;
-line-height: 20px;
-letter-spacing: -0.07em;
-
-color: #959595;
+.tabtext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  letter-spacing: -0.07em;
+  color: #959595;
 }
+.tab {
+  background-color: white;
+}
+
+.tab.active.recived {
+  background-color: #fdf307;
+  border: 1px solid #fdf307;
+  color: #959595;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  letter-spacing: -0.07em;
+}
+
+.tab.active.COMPLETED {
+  background-color: #44a16f;
+  border: 1px solid #44a16f;
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  letter-spacing: -0.07em;
+}
+.tab.active.NEGOTIATING {
+  background-color: lightblue;
+  color: #959595;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9257px;
+  line-height: 20px;
+  letter-spacing: -0.07em;
+}
+
+.secondBox {
+  position: absolute;
+  width: 1114px;
+  height: 526px;
+  left: 396px;
+  top: 446px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.status {
+  width: 712px;
+  height: 48px;
+  left: 437px;
+  top: 575px;
+  margin-left: 40px;
+  background: #44a16f;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+.statustext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.096px;
+  line-height: 19px;
+  letter-spacing: -0.07em;
+  padding-left: 30px;
+  color: #ffffff;
+}
+
+.status.active {
+  background-color: #44a16f;
+}
+
+.status.active .statustext {
+  color: #ffffff;
+}
+
+.status.active-1 {
+  background-color: #fdf307;
+}
+.status.active-1 .statustext {
+  color: #959595;
+}
+.status.active-2 {
+  background-color: lightblue;
+}
+.status.active-2 .statustext {
+  color: #959595;
+}
+.cards {
+  /* position: absolute; */
+  width: 275px;
+  height: 220px;
+  /* left: 437px; */
+  /* top: 685px; */
+  margin-left: 40px;
+  margin-top: 60px;
+  background: #f5f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+}
+.cardlogotext {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19.1247px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+
+  color: #85c371;
+}
+.cardBox {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+
+  width: 275px;
+  height: 93px;
+
+  background: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 15px;
+}
+.cardBoxText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+  color: #959595;
+}
+.cardBoxText2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.2321px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: -0.07em;
+
+  color: #959595;
+}
+
+.booknow {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5894px;
+  line-height: 21px;
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+  width: 126px;
+  height: 40px;
+  left: 575px;
+  top: 856px;
+
+  background: #44a16f;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.rarefind {
+  position: absolute;
+  width: 127px;
+  height: 40px;
+  left: 234px;
+  top: 223px;
+
+  background: #d96a6b;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.3512px;
+  line-height: 20px;
+
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.messageicon {
+  position: absolute;
+  box-sizing: border-box;
+  width: 138px;
+  height: 138px;
+  left: 1550px;
+  top: 859px;
+  border-radius: 50%;
+  background: #44a16f;
+  border: 1px solid #69ac80;
+}
+
+/* @media (max-width: 359px) {
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 226px;
+    left: 402px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 70%;
+    height: 526px;
+    left: 396px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1550px;
+    top: 859px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+  .innerbox2 {
+  box-sizing: border-box;
+  width: 1072px;
+  height: 48px;
+  left: 414px;
+  top: 294px;
+  margin-left: 12px;
+  border: 1px solid #959595;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.recived {
+  box-sizing: border-box;
+  width: 387px;
+  height: 44px;
+  border-radius: 24px 0px 0px 24px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+.NEGOTIATING {
+  box-sizing: border-box;
+  width: 287px;
+  height: 45px;
+  border-left: 1px solid #959595;
+  border-right: 1px solid #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.COMPLETED {
+  box-sizing: border-box;
+  width: 396px;
+  border-radius: 0px 24px 24px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 226px;
+    left: 402px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 70%;
+    height: 526px;
+    left: 396px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 1750px;
+    top: 859px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .firstbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 226px;
+    left: 402px;
+    top: 159px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  .secondBox {
+    position: absolute;
+    width: 70%;
+    height: 526px;
+    left: 396px;
+    top: 446px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+  }
+  .messageicon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 138px;
+    height: 138px;
+    left: 2072px;
+    top: 859px;
+    border-radius: 50%;
+    background: #44a16f;
+    border: 1px solid #69ac80;
+  }
+}
+
+@media (min-width: 2560px) {
+} */

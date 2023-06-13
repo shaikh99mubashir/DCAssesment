@@ -1,0 +1,22 @@
+.main1 {
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .requestText1 {
+    /* position: absolute; */
+    width: 422px;
+    height: 43px;
+    left: 394px;
+    top: 75.71px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5557px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    color: #72aa83;
+  }
